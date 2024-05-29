@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="center">
+            <form name="form" class="form">
+                <input type="text" id="display" name="display" disabled>
+                <span onclick="document.form.display.value = ''" id="clear">C</span>
+                <span onclick="document.form.display.value += '/'" id="divide">/</span>
+                <span onclick="document.form.display.value += '*'" id="multi">*</span>
+                <span onclick="document.form.display.value += '7'" id="seven">7</span>
+                <span onclick="document.form.display.value += '8'" id="eight">8</span>
+                <span onclick="document.form.display.value += '9'" id="nine">9</span>
+                <span onclick="document.form.display.value += '-'" id="minus">-</span>
+                <span onclick="document.form.display.value += '4'" id="four">4</span>
+                <span onclick="document.form.display.value += '5'" id="five">5</span>
+                <span onclick="document.form.display.value += '6'" id="six">6</span>
+                <span onclick="document.form.display.value += '+'" id="plus">+</span>
+                <span onclick="document.form.display.value += '1'" id="one">1</span>
+                <span onclick="document.form.display.value += '2'" id="two">2</span>
+                <span onclick="document.form.display.value += '3'" id="three">3</span>
+                <span onclick="document.form.display.value += '0'" id="zero">0</span>
+                <span onclick="document.form.display.value += '00'" id="dzero">00</span>
+                <span onclick="document.form.display.value += '.'" id="dot">.</span>
+                <span onclick="document.form.display.value = eval(form.display.value)" id="equal">=</span>
+            </form>
+        </div>
+    </body>
+</html>
