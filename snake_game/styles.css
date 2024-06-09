@@ -1,0 +1,26 @@
+/* Setting the width and height */ 
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* Setting the width and height of the body element */
+/* Centering the Canvas element using flexbox */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8588a0;
+}
+
+/* Styling the Canvas element */
+/* Adding a border around the Canvas element */
+
+canvas {
+    border: 5px solid #d1d1d1;
+}
